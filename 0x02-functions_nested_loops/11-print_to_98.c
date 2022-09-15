@@ -2,11 +2,12 @@
 
 /**
  * print_to_98 - prints all natural numbers from input to 98,
- * numbers must be separated by comma followed by a space.
+ * separated by comma followed by a space.
  * @n: The number to begin counting at.
  */
 void print_to_98(int n)
 {
+
 if (n >= 98)
 {
 while (n > 98)
