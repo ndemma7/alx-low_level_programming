@@ -1,39 +1,34 @@
 #include "main.h"
 
 /**
- * print_rev - print reverse
- * @s: input string
- *
- * Description:  prints a string, in reverse
- * Return: Always (0)
+ * print_rev - change the values of ints
+ * @s: char type
+ * Description: take string and print to standard output
  */
 void print_rev(char *s)
-
 {
 
-	int left, len, i;
+	int a;
 
 
 
-	len = 0;
-
-	left = 0;
-
-
-
-	for (i = 0; s[i] != '\0'; ++i)
+	for (a = 0; s[a] != '\0'; a++)
 
 	{
 
-		len = i;
+
 
 	}
 
-	for (; len >= left; len--)
+	a--; /* read the output from the last and print it out*/
+
+	while (s[a] != 0)
 
 	{
 
-		_putchar(s[len]);
+		_putchar(s[a]);
+
+		a--;
 
 	}
 
