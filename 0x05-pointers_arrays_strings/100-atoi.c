@@ -8,15 +8,11 @@
 
 int _isdigit(int c)
 {
-
 	if (c > 47 && c < 58)
 
 		return (1);
 
-
-
 	return (0);
-
 }
 
 /**
@@ -27,7 +23,6 @@ int _isdigit(int c)
 
 int _atoi(char *s)
 {
-
 	int digit;
 
 	int count = 0;
@@ -38,19 +33,15 @@ int _atoi(char *s)
 
 	unsigned int pos = 1;
 
-
-
 	for (digit = 0; ((s[digit] < '0') || (s[digit] > '9')); digit++)
 
 	{
-
 		if (s[digit] == '-')
 
 			sign *= -1;
-
 	}
 
-	for (; _isdigit(s[digit]); digit++)
+	for ( _isdigit(s[digit]); digit++)
 
 	{
 
