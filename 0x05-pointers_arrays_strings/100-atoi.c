@@ -5,6 +5,7 @@
  * @c: int type param
  * Return: 1 if digit, else 0
  */
+
 int _isdigit(int c)
 {
 
@@ -18,20 +19,13 @@ int _isdigit(int c)
 
 }
 
-
-
-
-
 /**
  * _atoi - program to converst ASCII to integer
  * @s: pointer to array of character
  * Return: Always successful
  */
 
-
-
 int _atoi(char *s)
-
 {
 
 	int digit;
@@ -67,17 +61,10 @@ int _atoi(char *s)
 	while (count > 0)
 
 	{
-
 		value += ((s[digit - 1] - 48) * pos);
-
 		pos *= 10;
-
 		count--;
-
 		digit--;
-
 	}
-
 	return (value * sign);
-
 }
