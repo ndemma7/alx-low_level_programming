@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _strncpy - function to copy string from source to destination
@@ -8,7 +8,12 @@
  * Return: return dest
  */
 
+
+
+
+
 char *_strncpy(char *dest, char *src, int n)
+
 {
 
 	int i;
