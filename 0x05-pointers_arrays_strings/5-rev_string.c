@@ -34,21 +34,13 @@ int _strlen(char *s)
 
 
 /**
-
  * rev_string - prints a string in reverse order
-
  * @s: the string to count down from
-
  *
-
  * Description: Reverses the string in memory
-
  * Return: void
-
  */
-
 void rev_string(char *s)
-
 {
 
 
